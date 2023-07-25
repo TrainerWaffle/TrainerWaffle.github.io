@@ -1,0 +1,384 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+    background-color: #171717;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #171717;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+/* Resto del código CSS... */
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    height: 60vh !important;
+}
+
+/* Resto del código CSS... */
+
+.box-container .box,
+.box-container .box1,
+.box-container .box2 {
+    height: 11rem;
+    width: 17rem;
+    background-size: cover;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0 , 0, .5);
+    margin: 2rem;   
+}
+
+.title {
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #fff;
+    padding: 0 100px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #ffffff;
+    color: #fff;
+    text-decoration: none;
+    background: #800404;
+}
+
+.btn:hover {
+    background: #ffffff;
+    color: #800404;
+    border: 2px solid #800404;
+    
+}
+
+.btn-home {
+    display: flex;
+}
+
+.btn-home a {
+    margin: 0 10px;
+}
+
+
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sau {
+    padding: 40px;
+    background: #1f1d1d;
+    padding-bottom: 80px;
+    padding-top: 10px;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+.box-container .box {
+    height: 11rem;
+    width: 17rem;
+    background-image: url(../img/vino1.jpg);
+    background-size: cover;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0 , 0, .5);
+    margin: 2rem;   
+}
+
+.box-container .box i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: #c96e06;
+    font-size: 2rem;
+    margin: 1rem 0;
+
+}
+
+.box-container .box h3 {
+    font-size: 20px;
+    color: #c96e06;
+
+}
+
+.box-container .box p {
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+.box-container .box1 {
+    height: 11rem;
+    width: 17rem;
+    background-image: url(../img/vino2.jpg);
+    background-size: cover;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0 , 0, .5);
+    margin: 2rem;   
+}
+
+.box-container .box1 i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: #c96e06;
+    font-size: 2rem;
+    margin: 1rem 0;
+
+}
+
+.box-container .box1 h3 {
+    font-size: 20px;
+    color: #c96e06;
+
+}
+
+.box-container .box1 p {
+    padding: 0 15px;
+    font-size: 16px;
+}
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+.box-container .box2 {
+    height: 11rem;
+    width: 17rem;
+    background-image: url(../img/vino1.jfif);
+    background-size: cover;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0 , 0, .5);
+    margin: 2rem;   
+}
+
+.box-container .box2 i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: #c96e06;
+    font-size: 2rem;
+    margin: 1rem 0;
+
+}
+
+.box-container .box2 h3 {
+    font-size: 20px;
+    color: #c96e06;
+    padding-top: 75;
+
+}
+
+.box-container .box2 p {
+    padding: 0 15px;
+    font-size: 16px;
+    color:rgb(0, 99, 249)
+}
+.about {
+    background: url(../img/copa1.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+.price {
+    background: #171717;
+}
+
+
+.contact {
+    padding-top: 20px;
+    background: #171717;
+    padding-bottom: 0;
+}
+
+
+.checkbox,.icons {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 35%;
+  left: 25px;
+  cursor: pointer;
+}
+
+.icons {
+  pointer-events: none;
+  font-size: 24px;
+  color: #fff;
+}
+
+.checkbox {
+  opacity: 0;
+}
+
+.fi-br-cross {
+  display: none;
+}
+
+.checkbox:checked ~ .fi-sr-menu-burger {
+  display: none;
+}
+
+.checkbox:checked ~ .fi-br-cross {
+  display: block;
+}
+
+.menu {
+  width: 175px;
+  position: absolute;
+  top: 63px;
+  left: -350px;
+  transition: 250ms;
+  z-index: 1;
+}
+
+.menu li {
+  list-style: none;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: white;
+  background-color: #8b0e0e;
+  display: block;
+  padding: 10px 12px;
+}
+
+.menu li a:hover {
+  background-color: #ea0c0c;
+}
+
+.checkbox:checked ~ .menu {
+  top: 63px;
+  left: 5px;
+  display: block;
+  position: absolute;
+}
+
+.boton1 {
+    color: white;
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    background-color: rgb(48, 48, 48);
+    border-radius: 25px;
+    width: 120px;
+    height: 60px;
+    border: 5px solid white;
+    position: relative;
+}
+.boton2 {
+    color: white;
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    background-color: rgb(48, 48, 48);
+    border-radius: 25px;
+    width: 120px;
+    height: 60px;
+    position: relative;
+}
+.boton3 {
+    color: rgb(53, 53, 53);
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    background-color: rgb(231, 231, 231);
+    border-radius: 25px;
+    width: 120px;
+    height: 60px;
+    border: 5px solid rgb(51, 51, 51);
+    position: relative;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 450px
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #ea0c0c;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #ffffff;
+    border: #ea0c0c;
+    color: #171717;
+  }
